@@ -1,0 +1,38 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.nav{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #5531ff;
+    background-size: cover;
+}
+.nav ul{
+    list-style-type: none;
+    text-align: center;
+    font-size: 40px;
+    padding-left: 0px;
+}
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 2px 1px 4px black;
+}
+.nav li{
+    height: 13vh;
+    margin-top: 3.5vh;
+}
+
+.nav ul li:hover{
+    background-color: #3331ff;
+    font-weight: bold;
+}
+.nav ul a li:hover{
+    color: #000;
+    text-shadow: 2px 1px 10px white;
+}
