@@ -30,7 +30,7 @@ slider{
 slider > *{
     position: absolute;
     display: block;
-    width: 80%;
+    width: 0;
     height: 200px;
     background-color: rgba(200, 200, 200, .5);
     animation: slide 12s infinite;
