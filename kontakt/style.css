@@ -16,12 +16,12 @@ h1{
 }
 p{
     font-weight: bold;
-    font-size:1.3rem;
+    font-size:1.3em;
 }
 input{
     width:300px;
     height:30px;
-    font-size:1.2rem;
+    font-size:1.2em;
     text-align: center;
     border:none;
     box-shadow:0 0 0 0 white;
@@ -34,5 +34,5 @@ input:focus{
 textarea{
     width:500px;
     height:200px;
-    font-size:1.2rem;
+    font-size:1.2em;
 }
