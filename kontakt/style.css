@@ -42,7 +42,13 @@ form{
     justify-content: center;
     flex-direction: column;
 }
+#wiecej{
+    width: 310px;
+    display: flex;
+    flex: 2;
+    margin-left: 10px;
+}
 #mniej{
     width: 150px;
-    display: inline-block;
+    margin-right: 10px;
 }
