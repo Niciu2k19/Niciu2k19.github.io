@@ -6,6 +6,18 @@
 .nav{
     height: 50px;
     background-color: #5531ff;
+    transform: translateX(-100%);
+    animation-name: nav;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes nav{
+    50%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 .nav a{
     text-decoration: none;
@@ -29,6 +41,15 @@
     background-image: url(../../medium/egipt.jpg);
     background-size: cover;
     background-position: center;
+    transform: translateY(-110%);
+    animation-name: main;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes main{
+    100%{
+        transform: translateY(0);
+    }
 }
 .txt{
     min-height: 90vh;
