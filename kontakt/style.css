@@ -8,6 +8,27 @@ body{
     flex-direction: column;
     place-content: center;
     height:100vh;
+    text-shadow: 2px 3px 7px white;
+}
+.img{
+    width: 100%;
+    height: 100vh;
+    animation: kontakt 6s;
+    animation-fill-mode: forwards;
+    position: absolute;
+}
+@keyframes kontakt{
+    0%{
+        transform: translateX(-1920px);
+    }
+    50%{
+        transform: translateX(-1920px);
+    }
+    100%{
+        transform: translateX(0);
+        background-image: url(samochodzik/kontakt.jpg);
+        background-size: cover;
+    }
 }
 h1{
     font-size:3rem;
@@ -41,6 +62,7 @@ form{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    z-index: 1;
 }
 #wiecej{
     width: 310px;
@@ -51,4 +73,50 @@ form{
 #mniej{
     width: 150px;
     margin-right: 10px;
+    margin-top: -10px;
+}
+.samochodzik{
+    position: absolute;
+    width: 100%;
+    left: -150px;
+    bottom: 200px;
+}
+.samochodzik img{
+    animation: samochodzik 4s;
+}
+@keyframes samochodzik{
+    100%{
+        transform: translateX(1500px);
+        opacity: 0;
+    }
+}
+.samolocik{
+    position: absolute;
+    width: 100%;
+    left: -150px;
+    bottom: 350px;
+}
+.samolocik img{
+    animation: samolocik 4s;
+}
+@keyframes samolocik{
+    100%{
+        transform: translateX(1500px);
+        opacity: 0;
+    }
+}
+.statek{
+    position: absolute;
+    width: 100%;
+    left: -150px;
+    bottom: 500px;
+}
+.statek img{
+    animation: statek 4s;
+}
+@keyframes statek{
+    100%{
+        transform: translateX(1500px);
+        opacity: 0;
+    }
 }
